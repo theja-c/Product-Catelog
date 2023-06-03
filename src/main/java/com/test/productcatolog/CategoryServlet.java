@@ -46,7 +46,7 @@ public class CategoryServlet extends HttpServlet{
 
     private List<Category> getCategory() {
         List<Category> cList = new ArrayList<>();
-        String sql = "SELECT * FROM product";
+        String sql = "SELECT * FROM category";
         try {
             Statement st = con.createStatement();
             ResultSet rs = st.executeQuery(sql);

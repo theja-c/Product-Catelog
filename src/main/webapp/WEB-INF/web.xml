@@ -17,6 +17,22 @@
   	<url-pattern>/category</url-pattern>
   </servlet-mapping>
   <servlet>
+  	<servlet-name>InsertProductServlet</servlet-name>
+  	<servlet-class>com.test.productcatolog.InsertProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>InsertProductServlet</servlet-name>
+  	<url-pattern>/InsertProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>UpdateProductServlet</servlet-name>
+  	<servlet-class>com.test.productcatolog.UpdateProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UpdateProductServlet</servlet-name>
+  	<url-pattern>/UpdateProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
         <servlet-name>Jersey Web Application</servlet-name>
         <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
         <init-param>
